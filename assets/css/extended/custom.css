@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=VT323&amp;display=swap');
+
+:root {
+  --pixel-purple: #6a0dad;
+  --pixel-teal: #00bcd4;
+  --pixel-gold: #d4a017;
+  --pixel-dark: #0d0d1a;
+  --pixel-darker: #070712;
+  --pixel-card: #12122a;
+  --pixel-border: #2a2a5a;
+  --pixel-text: #c0c0e0;
+  --pixel-muted: #7a7a9a;
+  --pixel-accent: #ff6ec7;
+  --pixel-star: #f0e68c;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  background-color: var(--pixel-darker);
+  color: var(--pixel-text);
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(106, 13, 173, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(0, 188, 212, 0.1) 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P', monospace;
+  color: var(--pixel-teal);
+  text-shadow: 2px 2px 0 var(--pixel-dark), 3px 3px 0 var(--pixel-purple);
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: var(--pixel-gold);
+  text-decoration: none;
+  position: relative;
+}
+
+a:hover {
+  color: var(--pixel-accent);
+  text-decoration: none;
+  text-shadow: 0 0 8px var(--pixel-accent);
+}
+
+.post-title a {
+  color: var(--pixel-teal) !important;
+}
+
+.post-title a:hover {
+  color: var(--pixel-accent) !important;
+}
+
+.nav a, .logo a {
+  color: var(--pixel-text) !important;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  color: var(--pixel-gold) !important;
+  text-shadow: 0 0 10px var(--pixel-gold);
+}
+
+.entry-content {
+  background: var(--pixel-card);
+  border: 2px solid var(--pixel-border);
+  border-radius: 0;
+  padding: 1.5rem;
+  box-shadow:
+    0 0 10px rgba(106, 13, 173, 0.3),
+    inset 0 0 30px rgba(0, 0, 0, 0.5);
+  image-rendering: pixelated;
+}
+
+.post-entry {
+  background: var(--pixel-card);
+  border: 2px solid var(--pixel-border) !important;
+  border-radius: 0 !important;
+  margin-bottom: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.post-entry:hover {
+  border-color: var(--pixel-purple) !important;
+  box-shadow: 0 0 15px rgba(106, 13, 173, 0.5);
+  transform: translateY(-2px);
+}
+
+.page-header h1 {
+  font-size: 20px;
+  border-bottom: 3px double var(--pixel-border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+code {
+  font-family: 'VT323', monospace;
+  background: var(--pixel-darker);
+  color: var(--pixel-star);
+  border: 1px solid var(--pixel-border);
+  padding: 0.15rem 0.4rem;
+  font-size: 0.95em;
+}
+
+pre code {
+  background: var(--pixel-darker);
+  border: 2px solid var(--pixel-border);
+  border-radius: 0;
+  padding: 1rem;
+}
+
+blockquote {
+  border-left: 4px solid var(--pixel-purple);
+  background: rgba(106, 13, 173, 0.1);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 3px double var(--pixel-border);
+  margin: 2rem 0;
+}
+
+.footer, .top-link {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+  color: var(--pixel-muted);
+}
+
+.top-link:hover {
+  color: var(--pixel-accent) !important;
+}
+
+::selection {
+  background: var(--pixel-purple);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--pixel-darker);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--pixel-border);
+  border: 1px solid var(--pixel-purple);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--pixel-purple);
+}
+
+button, .btn {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  background: var(--pixel-card);
+  color: var(--pixel-text);
+  border: 2px solid var(--pixel-border);
+  padding: 6px 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover, .btn:hover {
+  background: var(--pixel-purple);
+  border-color: var(--pixel-accent);
+  color: white;
+}
+
+.paginav {
+  background: var(--pixel-card);
+  border: 2px solid var(--pixel-border);
+  border-radius: 0;
+}
+
+.tag a {
+  background: var(--pixel-darker);
+  border: 1px solid var(--pixel-border);
+  color: var(--pixel-teal) !important;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+.tag a:hover {
+  background: var(--pixel-purple);
+  border-color: var(--pixel-accent);
+  color: white !important;
+}
