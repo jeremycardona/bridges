@@ -5,6 +5,11 @@ theme = 'PaperMod'
 enableEmoji = true
 enableRobotsTXT = true
 
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+  series = 'series'
+
 [params]
   description = 'mystical pixelscape wanderings'
   keywords = ['blog', 'technology', 'code', 'mystical', 'pixelscape']
@@ -52,6 +57,11 @@ enableRobotsTXT = true
     name = 'About'
     url = '/about/'
     weight = 20
+  [[menu.main]]
+    identifier = 'series'
+    name = 'Series'
+    url = '/series/'
+    weight = 25
   [[menu.main]]
     identifier = 'search'
     name = 'Search'

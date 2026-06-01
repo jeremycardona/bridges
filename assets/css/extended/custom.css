@@ -193,3 +193,27 @@ button:hover, .btn:hover {
   border-color: var(--pixel-accent);
   color: white !important;
 }
+
+.series-episode-badge {
+  display: inline-block;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+  color: var(--pixel-gold);
+  background: var(--pixel-darker);
+  border: 1px solid var(--pixel-gold);
+  padding: 1px 6px;
+  margin-right: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.terms-tags a {
+  font-family: 'VT323', monospace;
+  font-size: 14px;
+}
+
+.terms-tags a sup sup {
+  color: var(--pixel-gold);
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+}
