@@ -1,10 +1,10 @@
 +++
 date = '2026-06-01T19:07:58-04:00'
-title = ''Origin"
+title = 'Origin'
 description = 'the first pixel in the landscape'
 +++
 
-# Welcome to **Bridges** — 
+## Welcome to **Bridges** — 
 a mystical pixelscape of thoughts, code, and creative wandering.
 
 
