@@ -6,7 +6,7 @@ title = 'About'
 Welcome to **Bridges** — a blog where pixels meet mysticism, and code meets creativity.
 
 In another of the many attempts to have a masterpiece of perfect and excellent piece of work, or just an amazing written 'blog'.
-[[Origin]]
+
 Sources of energy:
 - Deliriant sourced from nutmeg.
 - Mood enhancers sourced from:
