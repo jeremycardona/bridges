@@ -1,7 +1,15 @@
 +++
 date = '2026-06-01T19:33:04-04:00'
 title = 'La tristeza de no ser quien otras buscan'
-description = '21 episodios sobre la búsqueda de conexión, el abismo entre intenciones, y la conciencia de no ser lo que otros buscan — incluso cuando ambos se han adentrado lo suficiente.'
+description = '21 episodios para despedir esta primavera por primera vez antes de cumplir 30 de edad'
 +++
 
-Una serie sobre las conexiones que nunca llegan a ser, las conversaciones que no se pueden tener, y la sensación recurrente de no ser lo que otros buscan por más profundo que sea el encuentro. Cada episodio es una exploración — cruda, íntima y sin filtros — de las relaciones humanas desde la perspectiva de alguien que siempre termina al otro lado del puente.
+Darse cuenta del espiral de pensamientos que causa ser compasivo con emociones negativas, a veces la compasión no es solamente con todo lo bueno.
+A veces ni se trata de pensamientos, ideas, ni sentimientos. A veces se trata de la proyección de otros a mi ser, y de mi ser a otros.
+
+It's true to think that 'good' implies bad,
+'bad' implies good.
+
+And it's really funny to think that most of us don't even treat others the way we want to be treated.
+## LMFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAO
+

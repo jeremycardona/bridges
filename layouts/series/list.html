@@ -32,9 +32,7 @@
 </div>
 {{- end }}
 
-{{- $pages := .RegularPages.ByParam "series_weight" }}
-
-{{- $paginator := .Paginate $pages }}
+{{- $paginator := .Paginate .Pages }}
 
 {{- range $index, $page := $paginator.Pages }}
 
@@ -45,7 +43,7 @@
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
     <h2 class="entry-hint-parent">
-      {{- .Title }}
+      {{- .LinkTitle }}
       {{- if .Draft }}
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
@@ -59,10 +57,14 @@
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
     <p>
-      {{- if .Param "series_weight" }}
-      <span class="series-episode-badge">Episodio {{ .Params.series_weight }}:</span>
+      {{- if and .Weight (not .IsSection) }}
+      <span class="series-episode-badge">Episodio {{ .Params.weight }}:</span>
       {{- end }}
+      {{- if .IsSection }}
+      {{ .Description | plainify | htmlUnescape }}
+      {{- else }}
       {{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}
+      {{- end }}
     </p>
   </div>
   {{- end }}

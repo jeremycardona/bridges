@@ -4,11 +4,11 @@ title = 'Bridges'
 theme = 'PaperMod'
 enableEmoji = true
 enableRobotsTXT = true
+mainSections = ['posts']
 
 [taxonomies]
   tag = 'tags'
   category = 'categories'
-  series = 'series'
 
 [params]
   description = 'mystical pixelscape wanderings'
