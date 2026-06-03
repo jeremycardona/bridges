@@ -14,6 +14,15 @@
   --pixel-star: #f0e68c;
 }
 
+[data-theme="light"] {
+  --pixel-text: #1c1c2e;
+  --pixel-muted: #6a6a8e;
+  --pixel-card: #f4f0fa;
+  --pixel-border: #d4cae8;
+  --pixel-darker: #ede8f4;
+  --pixel-dark: #e8e0f0;
+}
+
 body {
   font-family: 'VT323', monospace;
   background-color: var(--pixel-darker);
@@ -26,7 +35,6 @@ body {
 
 [data-theme="light"] body {
   background-color: rgb(255, 255, 255);
-  color: rgb(30, 30, 30);
   background-image:
     radial-gradient(circle at 20% 50%, rgba(106, 13, 173, 0.05) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(0, 188, 212, 0.03) 0%, transparent 50%);
@@ -40,7 +48,7 @@ body {
 }
 
 [data-theme="dark"] .list {
-  background-color: var(--theme);
+  background-color: var(--pixel-darker);
   background-image:
     radial-gradient(circle at 20% 50%, rgba(106, 13, 173, 0.15) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(0, 188, 212, 0.1) 0%, transparent 50%);
@@ -51,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--pixel-teal);
   text-shadow: 2px 2px 0 var(--pixel-dark), 3px 3px 0 var(--pixel-purple);
   letter-spacing: 0.5px;
+}
+
+[data-theme="light"] h1, [data-theme="light"] h2, [data-theme="light"] h3, [data-theme="light"] h4, [data-theme="light"] h5, [data-theme="light"] h6 {
+  text-shadow: none;
 }
 
 a {
