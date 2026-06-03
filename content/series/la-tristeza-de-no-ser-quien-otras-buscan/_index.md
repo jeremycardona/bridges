@@ -11,5 +11,4 @@ It's true to think that 'good' implies bad,
 'bad' implies good.
 
 And it's really funny to think that most of us don't even treat others the way we want to be treated.
-## LMFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAO
 
