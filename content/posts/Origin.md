@@ -5,7 +5,7 @@ description = 'the first pixel in the landscape'
 +++
 
 ## Welcome to **Bridges** — 
-a mystical pixelscape of thoughts, code, and creative wandering.
+a pixelscape of thoughts, code, and creative wandering.
 
 
 

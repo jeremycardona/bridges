@@ -7,8 +7,5 @@ description = '21 episodios para despedir esta primavera por primera vez antes d
 Darse cuenta del espiral de pensamientos que causa ser compasivo con emociones negativas, a veces la compasión no es solamente con todo lo bueno.
 A veces ni se trata de pensamientos, ideas, ni sentimientos. A veces se trata de la proyección de otros a mi ser, y de mi ser a otros.
 
-It's true to think that 'good' implies bad,
-'bad' implies good.
-
-And it's really funny to think that most of us don't even treat others the way we want to be treated.
+And it's really sad to think that most of us don't even treat others the way we want to be treated.
 
